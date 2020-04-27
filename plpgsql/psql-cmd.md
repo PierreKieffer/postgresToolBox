@@ -1,3 +1,6 @@
+### docker start 
+docker run --network host -e POSTGRES_PASSWORD=postgres -d postgres
+
 ### Connect to instance 
 ```
 psql -h localhost -U postgres -d postgres
