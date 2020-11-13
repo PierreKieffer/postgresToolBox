@@ -1,5 +1,10 @@
 # postgresToolBox 
 
+## Install postgresql-client 
+```
+sudo apt install -y postgresql-client
+```
+
 ## deploy 
 Deploy a postgresql instance in a container
 ```bash
