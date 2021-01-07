@@ -17,6 +17,7 @@ Connect to host :
 postgres_host=$(docker inspect -f '{{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' postgres)
 
 psql -h $postgres_host -U postgres -d postgres
+psql "user='postgres' password='postgres' host='X.X.X.X'"
 ```
 
 ## plpsql 
