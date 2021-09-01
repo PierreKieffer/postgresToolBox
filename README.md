@@ -38,7 +38,7 @@ Streaming service listening on a channel for notifications of actions on a table
 ### Create NOTIFY/LISTEN streaming protocol
 - Create notify trigger function : 
 ```bash
-psql "user='postgres' password='postgres' host='$postgres_host'" -f plpgsql/notify-trigger.sql.sql
+psql "user='postgres' password='postgres' host='$postgres_host'" -f plpgsql/notify-trigger.sql
 ```
 
 - Create trigger : 
