@@ -1,1 +1,1 @@
-UPDATE products SET name='cars' WHERE id=10 ;
+UPDATE products SET name='cars' WHERE quantity=10 ;
